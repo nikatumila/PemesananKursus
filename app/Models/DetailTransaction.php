@@ -26,11 +26,11 @@ class DetailTransaction extends Model
 
     public function course()
     {
-        return $this->belongsTo(Course::class, 'courseID'); // Ganti Course::class dengan nama model Course Anda
+        return $this->belongsTo(Course::class, 'courseID'); // Ganti Course::class dengan nama model Course 
     }
 
     public function instructor()
     {
-        return $this->belongsTo(Instructor::class, 'instructorID'); // Ganti Instructor::class dengan nama model Instructor Anda
+        return $this->belongsTo(Instructor::class, 'instructorID'); // Ganti Instructor::class dengan nama model Instructor
     }
 }

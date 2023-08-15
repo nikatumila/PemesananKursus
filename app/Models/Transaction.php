@@ -26,7 +26,7 @@ class Transaction extends Model
 
 public function instructor()
 {
-    return $this->belongsTo(Instructor::class); // Sesuaikan dengan model Instructor yang Anda miliki
+    return $this->belongsTo(Instructor::class); // Sesuaikan dengan model Instructor
 }
 
 public function detailTransactions()
