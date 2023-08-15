@@ -135,7 +135,7 @@
             datalabels: {
                 anchor: 'end',
                 align: 'top',
-                formatter: (value, context) => value, // Menampilkan nilai di atas batang
+                formatter: (value, context) => value, // Menampilkan nilai di atas grafik batang
                 font: {
                     weight: 'bold'
                 }
